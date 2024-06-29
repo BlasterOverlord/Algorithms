@@ -2,7 +2,7 @@
 
 using namespace std;
 
-double zero_one_knapsack(vector<pair<int,int>>& v, int c, int n)
+int zero_one_knapsack(vector<pair<int,int>>& v, int c, int n)
 {
     int k[n+1][c+1];
     int p, w;
